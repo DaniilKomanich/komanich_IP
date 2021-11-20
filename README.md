@@ -1,7 +1,7 @@
 IP_tasks
 
 Labs:
-  1. Cesar
+  1. Caesar
   2. Diffie–Hellman
   3. RSA
   4. SRP
