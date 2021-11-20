@@ -1,6 +1,13 @@
 IP_tasks
 
-1. Cesar
-2. Diffie–Hellman
-3. RSA
-4. SRP
+Labs:
+  1. Cesar
+  2. Diffie–Hellman
+  3. RSA
+  4. SRP
+
+Practice:
+  1. Generating Prime Numbers
+  2. Hash Function
+
+
