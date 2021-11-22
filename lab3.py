@@ -60,16 +60,16 @@ def isPrime(n, k):
             return False
     return True
 
-def encrypt(message, key):
+def encrypt(message, public_key):
     encrypt_message = []
     for m in message:
-        encrypt_message.append(pow(ord(m), key[0]) % key[1])
+        encrypt_message.append(pow(ord(m), public_key[0]) % public_key[1])
     return encrypt_message
 
-def decrypt(message, key):
+def decrypt(message, private_key):
     decrypt_message = ''
     for m in message:
-        decrypt_message += chr(pow(m, key[0]) % key[1])
+        decrypt_message += chr(pow(m, private_key[0]) % private_key[1])
     return decrypt_message
 
 message = input('Боб хочет передать сообщение: ')
